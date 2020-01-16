@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="Item_MRP <= 143.53\nmse = 1720948.315\nsamples = 6392\nvalue = 2208.68", fillcolor="#f5d1b7"] ;
+1 [label="Item_MRP <= 76.384\nmse = 495508.66\nsamples = 3170\nvalue = 1373.134", fillcolor="#f9e4d5"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Outlet_Type_0 <= 0.5\nmse = 69876.124\nsamples = 1063\nvalue = 776.258", fillcolor="#fcf2ea"] ;
+1 -> 2 ;
+3 [label="(...)", fillcolor="#C0C0C0"] ;
+2 -> 3 ;
+10 [label="(...)", fillcolor="#C0C0C0"] ;
+2 -> 10 ;
+17 [label="Outlet_Type_0 <= 0.5\nmse = 439828.171\nsamples = 2107\nvalue = 1674.263", fillcolor="#f8ddca"] ;
+1 -> 17 ;
+18 [label="(...)", fillcolor="#C0C0C0"] ;
+17 -> 18 ;
+25 [label="(...)", fillcolor="#C0C0C0"] ;
+17 -> 25 ;
+32 [label="Outlet_Type_0 <= 0.5\nmse = 1563954.52\nsamples = 3222\nvalue = 3030.742", fillcolor="#f2be99"] ;
+0 -> 32 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+33 [label="Outlet_Type_3 <= 0.5\nmse = 705691.159\nsamples = 2813\nvalue = 3401.829", fillcolor="#f0b58b"] ;
+32 -> 33 ;
+34 [label="(...)", fillcolor="#C0C0C0"] ;
+33 -> 34 ;
+41 [label="(...)", fillcolor="#C0C0C0"] ;
+33 -> 41 ;
+48 [label="Item_MRP <= 180.983\nmse = 5841.436\nsamples = 409\nvalue = 478.501", fillcolor="#fef9f5"] ;
+32 -> 48 ;
+49 [label="(...)", fillcolor="#C0C0C0"] ;
+48 -> 49 ;
+56 [label="(...)", fillcolor="#C0C0C0"] ;
+48 -> 56 ;
+}
