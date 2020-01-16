@@ -1,2 +1,2 @@
 # DS
-Data Science
+Pyhon Data Science Code for everyone
